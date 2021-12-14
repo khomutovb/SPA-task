@@ -123,4 +123,7 @@ input {
     .user__item>* {
         width: 45%;
     }
+    .user__name, .user__tel{
+        margin-bottom: 10px;
+    }
 }
