@@ -185,7 +185,8 @@ userList.addEventListener("click", (e) => {
             currentItem.dataset.action = "edit";
             currentItem.style.opacity = 1
             currentItem.querySelector(".btn__delete-user").textContent = "Очистить";
-            currentItem.querySelector(".btn__delete-user").dataset.action = "clear"
+            currentItem.querySelector(".btn__delete-user").dataset.action = "clear";
+            inputName.focus();
         }
         else {
             let userNameValue = inputName.value.trim();
